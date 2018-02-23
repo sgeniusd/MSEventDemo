@@ -13,6 +13,11 @@
 		30E86846203E6DC60071EA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E86845203E6DC60071EA73 /* Assets.xcassets */; };
 		30E86849203E6DC60071EA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E86847203E6DC60071EA73 /* LaunchScreen.storyboard */; };
 		30E8684C203E6DC60071EA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E8684B203E6DC60071EA73 /* main.m */; };
+		30E86854203E6DF70071EA73 /* MSView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E86853203E6DF70071EA73 /* MSView1.m */; };
+		30E86857203E6E1A0071EA73 /* MSView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E86856203E6E1A0071EA73 /* MSView2.m */; };
+		30E8685A203E6E230071EA73 /* MSView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E86859203E6E230071EA73 /* MSView3.m */; };
+		30E8685D203E728E0071EA73 /* MSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E8685C203E728E0071EA73 /* MSView.m */; };
+		30E86860203E9E050071EA73 /* MSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E8685F203E9E050071EA73 /* MSWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		30E86848203E6DC60071EA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30E8684A203E6DC60071EA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E8684B203E6DC60071EA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E86852203E6DF70071EA73 /* MSView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSView1.h; sourceTree = "<group>"; };
+		30E86853203E6DF70071EA73 /* MSView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSView1.m; sourceTree = "<group>"; };
+		30E86855203E6E1A0071EA73 /* MSView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSView2.h; sourceTree = "<group>"; };
+		30E86856203E6E1A0071EA73 /* MSView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSView2.m; sourceTree = "<group>"; };
+		30E86858203E6E230071EA73 /* MSView3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSView3.h; sourceTree = "<group>"; };
+		30E86859203E6E230071EA73 /* MSView3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSView3.m; sourceTree = "<group>"; };
+		30E8685B203E728E0071EA73 /* MSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSView.h; sourceTree = "<group>"; };
+		30E8685C203E728E0071EA73 /* MSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSView.m; sourceTree = "<group>"; };
+		30E8685E203E9E050071EA73 /* MSWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSWindow.h; sourceTree = "<group>"; };
+		30E8685F203E9E050071EA73 /* MSWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				30E8683D203E6DC60071EA73 /* AppDelegate.m */,
 				30E8683F203E6DC60071EA73 /* ViewController.h */,
 				30E86840203E6DC60071EA73 /* ViewController.m */,
+				30E8685B203E728E0071EA73 /* MSView.h */,
+				30E8685C203E728E0071EA73 /* MSView.m */,
+				30E86852203E6DF70071EA73 /* MSView1.h */,
+				30E86853203E6DF70071EA73 /* MSView1.m */,
+				30E86855203E6E1A0071EA73 /* MSView2.h */,
+				30E86856203E6E1A0071EA73 /* MSView2.m */,
+				30E86858203E6E230071EA73 /* MSView3.h */,
+				30E86859203E6E230071EA73 /* MSView3.m */,
+				30E8685E203E9E050071EA73 /* MSWindow.h */,
+				30E8685F203E9E050071EA73 /* MSWindow.m */,
 				30E86842203E6DC60071EA73 /* Main.storyboard */,
 				30E86845203E6DC60071EA73 /* Assets.xcassets */,
 				30E86847203E6DC60071EA73 /* LaunchScreen.storyboard */,
@@ -142,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E8685D203E728E0071EA73 /* MSView.m in Sources */,
+				30E86854203E6DF70071EA73 /* MSView1.m in Sources */,
+				30E86857203E6E1A0071EA73 /* MSView2.m in Sources */,
 				30E86841203E6DC60071EA73 /* ViewController.m in Sources */,
 				30E8684C203E6DC60071EA73 /* main.m in Sources */,
+				30E86860203E9E050071EA73 /* MSWindow.m in Sources */,
+				30E8685A203E6E230071EA73 /* MSView3.m in Sources */,
 				30E8683E203E6DC60071EA73 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
